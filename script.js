@@ -35,8 +35,6 @@ const spanWords = words.map(function(word) { return `<span>${word} </span>`});
   typedValueElement.value = '';
   // set focus
   typedValueElement.focus();
-  // set the event handler
-
   // Start the timer
   startTime = new Date().getTime();
 })
