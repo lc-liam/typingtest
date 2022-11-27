@@ -29,8 +29,6 @@ const spanWords = words.map(function(word) { return `<span>${word} </span>`});
   quoteElement.childNodes[wordIndex].className = 'highlight';
   // Clear any prior messages
   messageElement.innerText = '';
-
-  // Setup the textbox
   // Clear the textbox
   typedValueElement.value = '';
   // set focus

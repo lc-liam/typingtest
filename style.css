@@ -1,18 +1,21 @@
+@import url("https://fonts.googleapis.com/css?family=Roboto+Mono");
+
 .highlight {
-    background-color: yellow;
-    font-family: arial black, sans-serif
+    background-color: #B448F6;
+    font-family: Roboto Mono
 }
-.font{
-    font-family: arial black, sans-serif
+.message{
+    font-size: 40px;
+    font-family: Roboto Mono;
+    text-align:center;
 }
 .error {
     background-color: lightcoral;
     border: red;
 }
-#rcorners2 {
-    border-radius: 25px;
-    border: 2px solid #73AD21;
-    padding: 20px; 
-    width: 200px;
-    height: 150px;  
-  }
+.img{
+    width: 400px;
+    height: auto;
+    position:relative;
+    left: 700px;
+}
