@@ -44,6 +44,8 @@ typedValueElement.addEventListener('input', () => {
         //end of sentence
         //Displays success
         const elapsedTime = new Date().getTime() - startTime;
+        typedValueElement.value = '';
+
         let WPM = (60/(elapsedTime/1000))*(wordIndex+1);
         const message = `CONGRATULATIONS! You finished in ${elapsedTime/1000} seconds with ${WPM} WPM!`;
         messageElement.innerText = message;
